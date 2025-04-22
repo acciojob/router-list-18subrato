@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div>
       <h1>Item List</h1>
-      <Link to='/items/1'>Item 1</Link>
+      <li><Link to='/items/1'>Item 1</Link></li>
       <br />
-      <Link to='/items/2'>Item 2</Link>
+      <li><Link to='/items/2'>Item 2</Link></li>
       <br />
-      <Link to='/items/3'>Item 3</Link>
+      <li><Link to='/items/3'>Item 3</Link></li>
     </div>
   )
 }
